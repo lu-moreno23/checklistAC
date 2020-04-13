@@ -1,0 +1,21 @@
+h1{
+  background-color: pink;
+}
+
+#categories-section{
+  box-sizing: content-box;
+  float: left;
+  background-color: lime;
+  width: 50%;
+}
+
+#list{
+  box-sizing: content-box;
+  float: right;
+  background-color: blueviolet;
+  width: 50%;
+}
+
+.categories-list{
+  color: red;
+}

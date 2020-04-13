@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <script src="js/checklist.js"></script>
   <title>AC-Checklist</title>
 </head>
 <body>
 <header>
-  <h1>Animal Crossing Checklist</h1>
+  <h1 id="main-title">Animal Crossing Checklist</h1>
 </header>
   <main>
-    <span>BUGS</span>
-    <span>INSECTS</span>
-    <span>FOSSILS</span>
+    <div id="categories-section">
+      <h2>Categories</h2>
+        <div class="categories-list">BUGS</div>
+        <div class="categories-list">INSECTS</div>
+        <div class="categories-list">FOSSILS</div>
+    </div>
+    <div id="list">
+      <h2>Your list</h2>
+      <h3>BUGS</h3>
+        <ul id="bugs-to-complete">
+          <li><input type="checkbox" id="atlas-moth"><label for="atlas-moth">Atlas Moth</label></li>
+        </ul>
+    </div>
   </main>
 </body>
 </html>
